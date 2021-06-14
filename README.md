@@ -9,7 +9,10 @@ This is a learning time repository of User Authentication and Security with Expr
 
 ^ These two levels(1&2) cover on first commit
 
->Level 3: Hashing Passwords [Currently working on it..]
+>Level 3: Hashing Passwords [with "md5"]
+
+>Level 4: Salting and Hashing Passwords with bcrypt
+[Currently working on it..]
 ...
 
 Reference: The Complete 2021 Web Development Bootcamp by Dr. Angela Yu

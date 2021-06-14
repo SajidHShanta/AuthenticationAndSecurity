@@ -12,6 +12,8 @@ This is a learning time repository of User Authentication and Security with Expr
 >Level 3: Hashing Passwords [with "md5"]
 
 >Level 4: Salting and Hashing Passwords with bcrypt
+
+>Level 5: Using Passport.js to Add Cookies and Sessions
 [Currently working on it..]
 ...
 

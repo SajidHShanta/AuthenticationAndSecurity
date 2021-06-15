@@ -91,9 +91,21 @@ app.post("/register", function(req, res){
 });
 
 app.post("/login", function(req, res){
-  const username = req.body.username;
-  const password = req.body.password;
+  const user = new User({
+    username: req.body.username,
+    password: req.body.password
+  });
 
+  req.login(user, function(err) {
+    if(err) {
+      console.log(err);
+      res.redirect("/login");
+    } else{
+      passport.authenticate("local")(req, res, function(){
+      res.redirect("/secrets");
+      });
+    }
+  });
 });
 
 app.listen(3000, function() {

@@ -73,6 +73,11 @@ app.get("/secrets", function(req, res){
   }
 });
 
+app.get("/logout", function(req, res){
+  req.logout();
+  res.redirect('/');
+});
+
 app.post("/register", function(req, res){
   const username = req.body.username;
   const password = req.body.password;

@@ -14,6 +14,8 @@ This is a learning time repository of User Authentication and Security with Expr
 >Level 4: Salting and Hashing Passwords with bcrypt
 
 >Level 5: Using Passport.js to Add Cookies and Sessions
+
+>Level 6: OAuth 2.0 & Implement Sign In with Google
 [Currently working on it..]
 ...
 
